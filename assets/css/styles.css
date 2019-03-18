@@ -29,6 +29,10 @@
     padding-right: 20px;
 }
 
+#crystalOne, #crystalTwo, #crystalThree, #crystalFour {
+    cursor: pointer;
+}
+
 .scoreContainer {
     font-family: 'Raleway', sans-serif;
     text-align: center;
