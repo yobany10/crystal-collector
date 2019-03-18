@@ -7,18 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/styles.css"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Raleway" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
 
+    <div class="pageContainer">
     <div class="titleContainer">
         <h1>Crystal Collector</h1>
     </div>
 
     <div class="rulesContainer">
-        <h3>At the beginning of each round, you will be given a random number!
+        <h4>At the beginning of each round, you will be given a random number!
             Each time you click on a crystal, you will add certain amount of points to your score.
             It's up to you to match the random number and win!
-        </h3>
+        </h4>
     </div>
 
     <div class="crystalContainer">
@@ -29,10 +32,11 @@
     </div>
 
     <div class="scoreContainer">
-        <h4 id="randomNum"></h4>
-        <h4 id="userNum"></h4>
-        <h4 id="userWins"></h4>
-        <h4 id="userLosses"></h4>
+        <h4 id="randomNum">Match this: </h4>
+        <h4 id="userNum">Your number: 0</h4>
+        <h4 id="userWins">Wins: </h4>
+        <h4 id="userLosses">Losses: </h4>
+    </div>
     </div>
 
     <script src="./assets/js/game.js"></script>

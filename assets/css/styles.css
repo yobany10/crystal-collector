@@ -1,0 +1,36 @@
+
+.pageContainer {
+    background: linear-gradient(to right bottom, rgb(81, 136, 122), #062c27) fixed;
+    height: 100vmin;
+    padding-top: 20px;
+}
+
+.titleContainer {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 100px !important;
+    text-align: center;
+    color: white;
+}
+
+.rulesContainer {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+}
+
+.crystalContainer {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.scoreContainer {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: white;
+}
